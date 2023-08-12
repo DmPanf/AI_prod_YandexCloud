@@ -6,6 +6,8 @@ AI Integration based on YbadexCloud &amp; DataSphere
 🌐 https://cloud.yandex.ru/docs/speechkit/tts/?from=int-console-empty-state
 
 ### Подготовительные шаги:
+
+<p>
 <code>
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
 unzip -q awscliv2.zip
@@ -23,5 +25,5 @@ aws --endpoint-url=https://storage.yandexcloud.net s3 cp --recursive s3://dnp34-
 
 pip install -q pydub
 apt install -q ffmpeg
-
 </code>
+</p>
